@@ -2,7 +2,7 @@ export const dummyProducts = [
   {
     id: 1,
     name: "Fancy chair",
-    image: "./images/img1.jpg",
+    image: "/images/img1.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
@@ -13,7 +13,7 @@ export const dummyProducts = [
   {
     id: 2,
     name: "BackPack",
-    image: "./images/img2.jpg",
+    image: "/images/img2.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
@@ -24,7 +24,7 @@ export const dummyProducts = [
   {
     id: 3,
     name: "shawl",
-    image: "./images/img3.jpg",
+    image: "/images/img3.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
@@ -35,7 +35,7 @@ export const dummyProducts = [
   {
     id: 4,
     name: "clock",
-    image: "./images/img4.jpg",
+    image: "/images/img4.jpg",
     brand: "Fako",
     category: "Accessoires",
     description: "This is a very fancy product from Fako brand",
