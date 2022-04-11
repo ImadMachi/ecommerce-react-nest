@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ProductScreen from "../../screens/ProductScreen";
 import Footer from "../Footer";
 import Main from "../Main";
 import Navbars from "../Navbars";
@@ -8,14 +9,9 @@ export const App = () => {
     <BrowserRouter>
       <Navbars />
       <Routes>
-        <Route path="/" element={<Main />}>
-          {/* <Route index element={<Home />} />
-          <Route path="teams" element={<Teams />}>
-            <Route path=":teamId" element={<Team />} />
-            <Route path="new" element={<NewTeamForm />} />
-            <Route index element={<LeagueStandings />} /> */}
-          {/* </Route> */}
-        </Route>
+        <Route path="/" element={<Main />} exact />
+        <Route path="/products/:productId" element={<ProductScreen />}  />
+          
       </Routes>
       <Footer />
     </BrowserRouter>
